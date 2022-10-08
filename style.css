@@ -1,0 +1,96 @@
+body {
+  background: #fff;
+  color: #333;
+  background-color: #e4e4e4;
+}
+
+.container {
+  display: block;
+  width: 400px;
+  margin: 10px auto 100px;
+  background-color: #fff;
+  padding: 0px 10px 10px 10px;
+  border-radius: 10px;
+}
+
+h2 {
+  text-align: center;
+  padding-top: 10px;
+  margin-bottom: 0px;
+}
+
+button {
+  background: none;
+  border: 0px;
+  color: #888;
+  font-size: 16px;
+  margin: 10px 0 0;
+  cursor: pointer;
+  padding: 0;
+  margin-left: 1vw;
+}
+
+.buto-add {
+  background: none;
+  border: 0px;
+  color: #888;
+  font-size: 30px;
+  width: 60px;
+  margin: 10px 0 0;
+  cursor: pointer;
+  padding: 0;
+  display: block;
+}
+
+.buto-add:hover {
+  color: #0fc57c;
+}
+
+.add-comp {
+  display: flex;
+  align-items: center;
+}
+
+button:hover {
+  color: #333;
+}
+
+h3,
+label[for='new-task'] {
+  color: #333;
+  font-weight: 700;
+  font-size: 15px;
+  border-bottom: 2px solid #333;
+  padding: 20px 0 10px;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+#new-task-input {
+  margin: 2vh 0 0 0.7vw;
+  font-size: 18px;
+  line-height: 18px;
+  height: 18px;
+  width: 20vw;
+  padding: 10px;
+  border: 1px solid #ddd;
+  background: #fff;
+  border-radius: 6px;
+  color: #888;
+}
+
+input#new-task {
+  float: left;
+  width: 318px;
+}
+
+input {
+  border: none;
+  font-size: 18px;
+  margin:  2vh 0 0 0.7vw;
+  background: rgb(238, 238, 238);
+  border-radius: 6px;
+  padding: 2%;
+  height: 18px;
+  width: 90%;
+}
